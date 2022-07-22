@@ -1,0 +1,10 @@
+body {
+    background-color: #237068;
+    color: #FAECD4;
+    width: 620px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
