@@ -1,24 +1,42 @@
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <section class="top">
-        <div class="image-container">
-          <img src="/images/heroimg.png" alt="hero" sizes="(max-width: 1024px) 100vw, 1024px"/>
-         </div>
+  <header>
+    <div class="header-top">
+      <a href="index.html"><img src="./images/icons8-vaccine-64.png" class="vaccine">
+      </a>
+      <nav>
+        <button class="not-selected">
+          Log in
+        </button>
+        <button class="selected">
+          Sign up
+        </button>
+      </nav>
+    </div>
+  </header>
+  <section class="main-page">
+    <section class="top-page">
+      <div class="video-container">
+          <video src="./images/production ID_4260415.mp4" autoplay loop></video>
+        </div>
       </section>
-      
+      <div class="image-container">
+        <img src="/images/heroimg.png" class="card"alt="hero" sizes="(max-width: 1024px) 100vw, 1024px"/>
+      </div>
       <span class="title">
           All Things Vaccine
       </span>
       
-      <section class="middle">
-        <div class="icon">
+      <section class="middle-page">
+        <div class="social-icon">
           <a href="https://linkedin.com"><img src="/images/linkedin-icon.png" class="icons"></a>
           <a href="https://twitter.com/vaccinefinds"><img src="/images/twitter-icon.png" class="icons"></a>
           <a href="https://instagram.com"><img src="/images/instagram-icon.png"  class="icons"></a>
@@ -29,8 +47,8 @@
         #1 tool to conveniently navigate Covid-19 vaccination documentation, resources, and reads.
       </span>
       
-      <section class="bottom">
-        <div class="links">
+      <section class="bottom-page">
+        <div class="text-links">
           <a
             class="link-btn"
             href="https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total"
@@ -48,5 +66,6 @@
           FAQ
         </button>
       </a>
+    </section>
 </body>
 </html>
