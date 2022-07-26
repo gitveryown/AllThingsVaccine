@@ -5,15 +5,15 @@
 #All Things Vaccine
 All Things Vaccine.
 
-#Tech used
-HTML
-CSS
-JAVASCRIPT
-DOM Manipulation
-#Approach
+##Tech used
+- HTML
+- CSS
+- JAVASCRIPT
+- DOM Manipulation
+##Approach
 
-CSS 
+- CSS 
 
-Javascript 
+- Javascript 
 
-#Unsolved problems
+##Unsolved problems
