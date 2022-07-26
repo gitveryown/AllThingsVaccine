@@ -1,19 +1,19 @@
-# allThingsVaccine
+# AllThingsVaccine
 
 
 
-All Things Vaccine
+#All Things Vaccine
 All Things Vaccine.
 
-Tech used
+#Tech used
 HTML
 CSS
 JAVASCRIPT
 DOM Manipulation
-Approach
+#Approach
 
 CSS 
 
 Javascript 
 
-Unsolved problems
+#Unsolved problems
