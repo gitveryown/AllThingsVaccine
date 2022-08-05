@@ -1,5 +1,6 @@
 body {
-    margin:0
+    margin:0;
+    padding:0;
 }
 
 header {
@@ -66,44 +67,71 @@ button {
 .main-faq {
     width: 80vw;
     font-size: 16px;
-}
-
-.qa-box {
-    margin:20px;
-    display: flex;
-    flex-direction: column;
-    gap:25px;
-}
-
-
-.question {
-    border-top: 1px solid rgb(155, 155, 155);
-   
-}
-
-.caret {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
+    box-sizing: border-box;
     
 }
 
+.main-faq {
+    padding: 4em 2em;
+}
+
+.faq {
+    list-style:none;
+    max-width: 700px;
+    margin: 0 auto;
+    transition: all 0.5s ease-out
+}
+
+.faq li {
+    border-bottom: 3px solid rgb(155, 155, 155);
+}
+
+.question {
+    padding:1em 0;
+    border-left: 10px #ffff solid;
+    cursor: pointer;
+    
+}
+
+
+
+.caret {
+    display: inline-block;
+    margin: 0 0.5em;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transition: all 0.3s ease-in
+
+}
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
-h2 {
-   font-weight: 500;
+.faq p {
+    color: #888;
+    line-height: 25px;
 }
-
-.first {
-    border-top:none
-}
-
 
 .answer {
-    display:none;
-    margin-bottom:25px;
+    overflow: hidden;
+    height:0;
+    padding: 0 1em 0 3.3em;
+   
+}
+
+.answer-opened{
+    padding: 1em 1em 2em 3.3em;
+    height: initial;
+   
+
+}
+
+.caret-rotate {
+    transform:rotate(220deg);
+   ;
+    
 }
